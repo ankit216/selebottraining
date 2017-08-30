@@ -1,0 +1,14 @@
+{
+  "UserName": {
+    "locatorType": "xpath",
+    "locatorValue": "//input[@name='username']"
+  },
+  "password": {
+    "locatorType": "xpath",
+    "locatorValue": "//input[@name='password']"
+  },
+  "LoginButton": {
+    "locatorType": "xpath",
+    "locatorValue": "//input[@class='button primary']"
+  }
+}

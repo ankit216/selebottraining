@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class Tests extends BrowserConfig {
 
 
-    @Test
+    /* @Test*/
     public void login() {
 
         String currentFileName = "login";
@@ -22,7 +22,7 @@ public class Tests extends BrowserConfig {
     }
 
 
-    @Test
+    //@Test
     public void login2() {
 
         String currentFileName = "login";
@@ -35,6 +35,19 @@ public class Tests extends BrowserConfig {
         performAction.click(currentFileName, "login to VigoReport");
         performAction.waitForElement(currentFileName, "project Lable On HomePage");
         verify.elementIsDisplayed(currentFileName, "project Lable On HomePage");
+
+
+    }
+
+
+    @Test
+    public void suruserLogin() {
+
+
+        performAction.openURL();
+        performAction.sendKeys("SuruseLogin", "UserName", "ankitp@jsbot.io");
+        performAction.sendKeys("SuruseLogin", "password", "asdf1234");
+        performAction.click("SuruseLogin", "LoginButton");
 
 
     }
