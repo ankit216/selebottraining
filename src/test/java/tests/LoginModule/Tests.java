@@ -2,7 +2,6 @@ package tests.LoginModule;
 
 
 import config.SeleniumConfig.BrowserConfig;
-import org.testng.annotations.Test;
 
 
 public class Tests extends BrowserConfig {
@@ -40,12 +39,12 @@ public class Tests extends BrowserConfig {
     }
 
 
-    @Test
+    // @Test
     public void suruserLogin() {
 
 
         performAction.openURL();
-        performAction.sendKeys("SuruseLogin", "UserName", "ankitp@jsbot.io");
+        performAction.sendKeys("SuruseLogin", "userName", "ankitp@jsbot.io");
         performAction.sendKeys("SuruseLogin", "password", "asdf1234");
         performAction.click("SuruseLogin", "LoginButton");
 

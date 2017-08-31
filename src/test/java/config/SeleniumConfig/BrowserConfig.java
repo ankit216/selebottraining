@@ -16,6 +16,7 @@ import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.safari.SafariDriver;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 /**
@@ -113,5 +114,12 @@ public class BrowserConfig {
 
     }
 
+
+    @AfterTest
+    public void tearDown() {
+
+        // driver.close();
+
+    }
 
 }
