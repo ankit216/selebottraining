@@ -1,0 +1,100 @@
+{
+  "userName": {
+    "auto": false,
+    "default": "ankitp@jsbot.io",
+    "locatorValue": ".//*[@name='username']",
+    "locatorType": "xpath",
+    "textType": ""
+  },
+  "password": {
+    "auto": false,
+    "default": "asdf1234",
+    "locatorValue": ".//*[@name='password']",
+    "locatorType": "xpath",
+    "textType": ""
+  },
+  "logIn": {
+    "default": "",
+    "auto": false,
+    "locatorValue": ".//*[@class='button primary']",
+    "locatorType": "xpath",
+    "textType": ""
+  },
+  "createStream": {
+    "default": "",
+    "auto": false,
+    "locatorValue": ".//*[contains(text(),'Create stream')]",
+    "locatorType": "xpath",
+    "textType": ""
+  },
+  "errorMessage": {
+    "default": "",
+    "auto": false,
+    "locatorValue": "//p[@ng-show='error']",
+    "locatorType": "xpath",
+    "textType": ""
+  },
+  "streamName": {
+    "default": "",
+    "auto": false,
+    "locatorValue": ".//*[@name='name']",
+    "locatorType": "xpath",
+    "textType": ""
+  },
+  "notesName": {
+    "default": "",
+    "auto": false,
+    "locatorValue": ".//*[@name='notes']",
+    "locatorType": "xpath",
+    "textType": ""
+  },
+  "privateClick": {
+    "default": "",
+    "auto": false,
+    "locatorValue": "//form/div[3]//input",
+    "locatorType": "xpath",
+    "textType": ""
+  },
+  "staticClick": {
+    "default": "",
+    "auto": false,
+    "locatorValue": "//form/div[4]//input",
+    "locatorType": "xpath",
+    "textType": ""
+  },
+  "addClick": {
+    "default": "",
+    "auto": false,
+    "locatorValue": "//div[6]/input[2]",
+    "locatorType": "xpath",
+    "textType": ""
+  },
+  "streamErrorMessage": {
+    "default": "",
+    "auto": false,
+    "locatorValue": ".//*[contains(text(),'Title')]",
+    "locatorType": "xpath",
+    "textType": ""
+  },
+  "loginWithFacebook": {
+    "default": "",
+    "auto": false,
+    "locatorValue": "//section//div/a[1]",
+    "locatorType": "xpath",
+    "textType": ""
+  },
+  "loginErrorWithFacebook": {
+    "default": "",
+    "auto": false,
+    "locatorValue": ".//*[@id='u_0_0']/div/div",
+    "locatorType": "xpath",
+    "textType": ""
+  },
+  "loginWithTwitter": {
+    "default": "",
+    "auto": false,
+    "locatorValue": "//section/div[3]//div//div/a[2]",
+    "locatorType": "xpath",
+    "textType": ""
+  }
+}
